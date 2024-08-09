@@ -1,0 +1,135 @@
+
+*{
+color:white;
+font-family: "Poppins", Verdana, sans-serif;
+}
+textarea, textarea[type=text]:focus{
+background-color:#043935;
+border: 2px solid black;
+}
+input[type=text]:focus, input[type=password]:focus{
+background-color:#043935;
+}
+
+input, select{
+color:black;
+background-color:#043935;background-color:#043935;
+border-color:black;
+color:white;
+border: 2px solid black;
+}
+body {
+margin: 0px; padding: 0px;
+font-size: smaller;
+background-image:url("imej/background.jpg");
+background-size:100%;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-color:#043935;
+}
+#mainTable{
+height:100%;
+border:5px solid black;
+border-radius:15px;
+background-color: #043935
+;
+margin-top:5%;
+}
+.mainContent{
+animation: fadeIn 1s;
+}
+.row {
+width: 100%;
+}
+.row:after {
+content: '';
+display: table;
+clear: both;
+}
+.column {
+float: left;
+margin: 2px 2px 30px 0px;
+}
+td {
+vertical-align:top;
+
+}
+.table-data {
+width: 100%;
+border: 1px solid black;
+border-color: darkgreen;
+box-shadow: 5px 5px #888888;
+
+}
+.table-data tr:nth-child(even) {
+background-color: #054d47;
+}
+.table-data td {
+padding: 10px;
+}
+
+label {
+font-weight: bold;
+}
+.tajuk {
+font-size: 20px;
+}
+.fancy {
+font-family: Monotype Corsiva, Freestyle Script, Brush Script MT, Verdana !important;
+}
+.nota {
+font-size: small;
+color: gray;
+}
+.imej {
+border-radius: 10px;
+border:2px solid #fff;
+filter: drop-shadow(5px 5px 3px white);
+}
+.mainmenu {
+display: block;
+width: 130px;
+height: 25px;
+background: #0aa399;
+padding: 2px;
+text-align: center;
+border-radius: 10px;
+color: black;
+font-weight: bold;
+line-height: 25px;
+box-shadow: #000 5px 5px 10px 0;
+text-decoration: none;
+transition-duration: 0.3s;
+}
+.mainmenu:hover {
+background-color:white;
+font-size:110%;
+}
+.button {
+background: #0aa399;
+padding: 4px;
+text-align: center;
+border-radius: 5px;
+color: black;
+line-height: 25px;
+box-shadow: #000 5px 5px 10px 0;
+transition-duration: 0.3s;
+text-decoration: none;
+}
+.button:hover {
+background-color:white;
+}
+#logo {
+background-color: #fab73d;
+transition-duration:0.4s;
+width:170px;
+height:170px;
+}
+#logo:hover {
+background-color:white;
+transform:scale(1.05,1.05);
+}
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
