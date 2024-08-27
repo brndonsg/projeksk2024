@@ -21,7 +21,7 @@ if (isset($_POST['idPengguna'])) {
         <input type='text' name='idPengguna' value='<?php echo $idPengguna; ?>' required><br>
     </p>
     <p><label>Katalaluan</label><br>
-        <input type='password' name='password' value='<?php echo $idPengguna; ?>' required><br>
+        <input type='password' name='password' value='<?php echo $password; ?>' required><br>
     </p>
     <p><label>Nama</label><br>
         <input type='text' name='nama' value='<?php echo $nama; ?>' required><br>

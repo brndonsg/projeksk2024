@@ -30,6 +30,7 @@ if (isset($_GET['font'])) {
         $fontsize = 100;
     }
     $_SESSION['fontsize'] = $fontsize;
+    die('<script>window.history.go(-1);</script>');
 }
 
 if (!isset($_SESSION['idPengguna'])) {
