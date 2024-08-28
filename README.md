@@ -9,3 +9,4 @@ Projek ini menggunakan HTML, CSS dan JS untuk bahagian hadapan manakala mengguna
 > [!CAUTION]
 > Jangan salin **semua** kod ini satu persatu
 
+## Cara Penggunaan dan Installation
