@@ -24,15 +24,23 @@ if (isset($_POST['idakaun'])  &&  isset($_POST['password'])) {
             $_SESSION['idPengguna'] = $row[$medan_id];
             $_SESSION['nama'] = $row['nama'];
             $_SESSION['level'] = $level;
-            echo "<h6 style='color:green;font-weight:bold;text-align: center;'>Log masuk berjaya! Tunggu sekejap...</h6>;
+            echo "
+
+            <h6 style='color:green;font-weight:bold;text-align: center;'>Log masuk berjaya! Tunggu sekejap...</h6>
                 
-                  <script> setTimeout(() => {
+                  <script> 
+                  alert('Log masuk berjaya.');
+                  setTimeout(() => {
                         window.location.replace('index.php');
                     }, 1000) </script>";
             die();
         }
     } else {
-        echo "<h6 style='color:red;font-weight:bold;text-align: center;'>ID atau katalaluan anda salah!</h6>";
+        echo "
+        <script>
+        alert('Log masuk gagal.');
+        </script>
+        <h6 style='color:red;font-weight:bold;text-align: center;'>ID atau katalaluan anda salah!</h6>";
     }
 }
 ?>

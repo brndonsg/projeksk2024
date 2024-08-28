@@ -7,7 +7,7 @@ Saiz Teks: <br><a class='button' href='?font=plus'>+</a>
 <a href='javascript:void(0);' onclick="window.print()">Cetak Halaman</a> <a href='javascript:void(0);' onclick='printcontent("printcontent")'>Cetak
 Kandungan</a>
 <br>
-Copyright Â© Portal SRK</td></tr>
+Copyright Brandon Bradley© Untuk SK 2023-2024</td></tr>
 </table>
 <script type="text/javascript">
 
